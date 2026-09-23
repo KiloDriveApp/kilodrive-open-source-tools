@@ -1,0 +1,18 @@
+{
+  "openapi": "3.0.3",
+  "info": {"title": "Example", "version": "1.0.0"},
+  "paths": {},
+  "components": {
+    "schemas": {
+      "MoneyDto": {
+        "type": "object",
+        "required": ["minorUnits", "currency"],
+        "properties": {
+          "minorUnits": {"type": "integer", "format": "int64"},
+          "currency": {"type": "string"},
+          "display": {"type": "string"}
+        }
+      }
+    }
+  }
+}

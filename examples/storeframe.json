@@ -1,0 +1,27 @@
+{
+  "canvas": [1080, 1920],
+  "output": "output",
+  "brand": "Example App",
+  "font": "",
+  "colors": {
+    "top": "#D8FFE1",
+    "bottom": "#1689D9",
+    "text": "#082D35"
+  },
+  "frame": {
+    "width": 780,
+    "height": 1400,
+    "top": 430,
+    "border": 24,
+    "radius": 72,
+    "color": "#101820"
+  },
+  "slides": [
+    {
+      "source": "fixtures/example-screen.png",
+      "title": "Show your strongest benefit",
+      "slug": "primary-benefit",
+      "altText": "Example application home screen."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.venv/
+build/
+dist/
+output/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+examples/fixtures/example-screen.png

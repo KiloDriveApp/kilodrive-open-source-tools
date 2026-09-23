@@ -1,0 +1,6 @@
+{
+  "root": "fixtures/docs",
+  "include": ["**/*.md"],
+  "requiredFiles": ["README.md"],
+  "bannedPhrases": ["production ready without evidence", "guaranteed secure"]
+}
