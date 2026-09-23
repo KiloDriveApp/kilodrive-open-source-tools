@@ -1,6 +1,9 @@
-# KiloDrive DevTools
+# KiloDrive Open Source Tools
 
-KiloDrive DevTools is a small, brand-neutral toolkit extracted from production engineering work on KiloDrive. It helps mobile teams create store artwork, validate Flutter releases, generate Dart wire models, certify MySQL scripts in disposable databases, and keep documentation honest.
+KiloDrive Open Source Tools is a brand-neutral toolkit extracted from production engineering work on KiloDrive. It helps mobile teams create store artwork, validate Flutter releases, generate Dart wire models, certify MySQL scripts in disposable databases, and keep documentation honest.
+
+[![CI](https://github.com/KiloDriveApp/kilodrive-open-source-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/KiloDriveApp/kilodrive-open-source-tools/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 The project is MIT licensed. It contains no KiloDrive credentials, private screenshots, production endpoints, or proprietary database definitions.
 
@@ -94,3 +97,5 @@ The tests do not require Flutter, MySQL, or network access. Live SchemaCert and 
 ## Contributing
 
 Issues and pull requests are welcome. Include focused tests and avoid introducing product-specific assets or credentials. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Security vulnerabilities should be reported privately as described in [SECURITY.md](SECURITY.md).
